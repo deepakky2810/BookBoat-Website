@@ -27,7 +27,7 @@ header #header-logo-searchbar form{
     margin: 0px auto;
 }
 header #header-logo-searchbar form input{
-    width: 80%;
+    width: 70%;
     height: 39px;
     border: 1px solid #000;
     border-top-left-radius: 3px;
@@ -110,7 +110,6 @@ header nav .dropdown-content {
   background-color: #333;
   width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  
   z-index: 3;
 }
 
@@ -118,11 +117,14 @@ header nav .dropdown-content {
 header nav .dropdown:hover .dropdown-content {display: block;}
 header nav .dropdown:hover .dropdown-content a{
     display: block;
+    color: #aaa;
+}
+header nav .dropdown:hover .dropdown-content a:hover{
+    background-color: rgb(233, 207, 135);
+    color: black;
+    box-shadow: 0 0 2px rgb(170, 139, 81);
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown 
-.dropdown:hover .dropbtn {background-color: #333;}
-*/
 
 
 
