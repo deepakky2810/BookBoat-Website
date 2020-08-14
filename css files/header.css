@@ -71,7 +71,7 @@ header nav ul{
 }
 header nav ul li{
     height: 40px;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.8s ease;
 }
 header nav ul li:hover{
     background-color: rgb(233, 199, 135);
@@ -82,11 +82,10 @@ header nav ul li a{
     font-weight: 500;
     padding: 0 20px;
     line-height: 40px;
-    transition: color 0.5s ease;
+    transition: all 0.5s ease;
 }
 header nav ul li:hover a{
     color: black;
-    font-weight: 500;
 }
 
 /* Dropdown Button */
